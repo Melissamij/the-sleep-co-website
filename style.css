@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+
+/* Temporary style for structure html*/
+*{
+    padding: 0.5rem;
+    border: 1px solid grey;
+}
+body{ border: none;}
+html{ border: none;}
+
+/* -------------- Style Image*/
+.bg-image{
+    background-image: url("/image/sleep-co4.jpg");
+    background-size: cover;
+    min-height: 10rem;
+
+}
+/* ---- Universal style &utility classes  */
+.padded{ padding: 5%;}
+.padded-sm{padding:1rem;}
+.bg-dark{ 
+    background-color: #192b37;
+    color: white;}
