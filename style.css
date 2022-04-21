@@ -74,10 +74,7 @@ a:hover{
 .subtitle{font-size: 1rem;
 color: rgb(120,120,125);}
 
-.quote-icon{font-size: 6rem;
-display: inline-block;
-color: rgb(120,120,125);
-line-height: 1;}
+
 
 .font-weight-light{ font-weight:200;}
 .font-weight-normal{font-weight: 400;}
@@ -90,17 +87,26 @@ line-height: 1;}
 .text-right{text-align: right;}
 
 /*-------- Header Styles & Footer   */
-footer a{
-    border: none;
-}
+
 header{
     background-image: url('/image/sleep-co4.jpg');
     background-size: cover;
     background-position: center;
+    padding: 2% 5%;
 }
 header h3{
     font-size: 5rem;
     line-height: 1; 
+} 
+nav a{
+    padding: 0.5rem;
+    display: inline-block;
+    border: none;
+}
+.logo h2{ margin-bottom: 0;}
+
+footer a{
+    border: none;
 }
 
 /*---------Background Images*/
@@ -111,10 +117,49 @@ background-position: 50% 35%;}
 background-position: 50% 57%;}
 
 /*--------- Icon Grid---------*/
-.fas{ 
+.fas,
+.fab{ 
     display: block;
     text-align: center;
     margin-bottom: 2rem;
     font-size: 3rem;
 }
+/*Button & Forms */
+form input,
+form textarea,
+form button{
+  width: 100%;
+  margin: 0.5rem; 
+  padding: 0.5rem;
+  border: 2px solid;
+  outline: none;
+  font-family: inherit; 
+  font-size: 1rem;
+}
 
+form input:focus,
+form textarea:focus{
+  border-color: #ffbe00;
+}
+
+textarea{
+  min-height: 6rem;
+}
+form label{
+  margin-top: 1rem;
+  display: block;
+  font-weight: light;
+}
+ form button{
+  background-color: #ffbe00;
+   color: white;
+   border: none;
+   width: 100%;
+   display: block;
+}
+
+/* Testimonial block--------------  */
+.quote-icon{font-size: 6rem;
+    display: inline-block;
+    color: rgb(120,120,125);
+    line-height: 1;}
