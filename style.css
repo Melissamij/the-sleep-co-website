@@ -9,8 +9,11 @@
     background-image: url("/image/sleep-co4.jpg");
     background-size: cover;
     min-height: 10rem;
-
 }
+.landscape{ padding-bottom: 65%;}
+.portrait {padding-bottom: 125%;}
+.square {padding-bottom: 100%;}
+
 /* ---- Universal style &utility classes  */
 body{ 
     font-family: 'Catamaran', sans-serif;
@@ -28,6 +31,9 @@ body{
 .bg-dark{ 
     background-color: #192b37;
     color: white;}
+.bg-featured {
+    background-color: #ffbe00;
+}
 
 .tall-50{min-height: 50vh;}
 .tall-60{min-height: 60vh;}
@@ -37,17 +43,13 @@ body{
 .tall-100{min-height: 100vh;}
 
 /* ------ Typography Styles-----*/
-h2{
-    font-size: 2.5rem;
-    line-height: 1.1;
+h2, h3, h4, h5, h6{
     margin-bottom: 1rem;
+    line-height: 1.1;
 }
-h3{
-    line-height: 1;
-}
-p{font-weight:200;
-line-height: 1.5;
-margin-bottom: 1rem;}
+h2{font-size: 2.5rem;}
+
+p {font-weight:200;}
 
 p:last-child{margin-bottom: 0%;}
 
