@@ -1,44 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <!--------------Head of ou html external ressources-->
-
-<head>
-    <title> home page </title>
-    <!------ Fontawesome icons ------>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!------ Meta viewport -------->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!----------- Google font Catamaran 200 400 500 800-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet">
-
-    <!------- Custom Sheet----->
-    <link href="style.css" rel="stylesheet">
-
-    <!---- Gridlex & Flexbox grid---->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-
-</head>
-<!--------------------- Our Body   ---------->
-<body>
-
+---
+layout: default
+---
     <!----------- Header ---------->
     <header class="grid text-center tall-100 md-tall-80">
         <div class="header-nav grid col-12-top">
-            <div class="col-5_sm-12-middle sm-padded-b-0">
-                <a href="/index.html" class="logo">
-                <h2>The Sleep Co</h2>
-                </a>
-            </div>
- 
-            <nav class="col-7_sm-12-middle sm-text-center text-right">
-                <a href="/index.html">Home</a>
-                <a href="/about.html">About</a>
-                <a href="/products.html">Products</a>
-                <a href="/contact.html">Contact</a>
-            </nav>
+            {%includes header-nav.html%}
+            
             <div class="col-12-middle">
                 <h3><span class="featured-text editable">sleep</span> like a baby</h3>
                 <h1 class="font-weight-normaleditable">the ultimate matress solution</h1>
@@ -129,19 +96,4 @@
         </div>
     </section>
 
-    <!------------- Footer------->
-    <footer class="padded grid-spaceBetween bg-dark">
-        <div class="col-5-bottom">
-            <h3>Let's<br>
-             <span class="featured-text">connect</span></h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim nam veniam nobis totam, assumenda nisi eligendi non ipsum hic, quam qui iusto sit! Totam nemo repudiandae omnis nobis hic?</p>
-        </div>
-        <div class="col-5-bottom">
-            <p><strong>Call:</strong><a href="tel:#">04 555 5565</a></p> 
-            <p> <strong>Email:</strong> <a href="mailto:#">hello@sleepco</a></p>
-            <p><strong>Store:</strong> 55 Main St. Chicago</p>
-            <p><strong>Instagram:</strong> <a href="https://www.Instagram.com/thesleepco">@thesleepco</a></p>
-        </div>
-    </footer>
-    </body>
-</html> 
+    
