@@ -49,7 +49,7 @@ cards:
     {% for item in page.cards %}
 <div class="col-4_sm-12 padded-sm">
     <div class="card">
-        <div class="bg-image portrait"></div>
+        <div class="bg-image portrait" style="background-image: url('{{item.featured_image}}')"></div>
            <div class="padded-1">
             <h3>{{item.heading}}</h3>
             <p>{{item.description}}</p>
