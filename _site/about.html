@@ -26,18 +26,31 @@
     <!----------- Header ---------->
     <header class="grid text-center tall-100 md-tall-80">
         <div class="header-nav grid col-12-top">
-        <div class="col-5_sm-12-middle sm-padded-b-0">
-    <a href="/index.html" class="logo">
-    <h2>The Sleep Co</h2>
-    </a>
-</div>
-
-<nav class="col-7_sm-12-middle sm-text-center text-right">
+        
+<div class="header-nav col-12-top grid">
+    <div class="col-5_sm-11-middle sm-padded-b-0">
+        <a href="/index.html" class="logo">
+            <h2>The Sleep Co</h2>
+        </a>
+    </div>
+    <nav class="col-7_sm-12-middle text-right sm-text-center hide-sm">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/products.html">Products</a>
+        <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="col-1 show-sm">
+        <div class="hamburger-button">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+ </div>
+ <nav class="mobile-menu bg-featured padded">
     <a href="/index.html">Home</a>
     <a href="/about.html">About</a>
     <a href="/products.html">Products</a>
     <a href="/contact.html">Contact</a>
-</nav>
+ </nav>
 
             <div class="col-12-middle">
                 <h3>we are the<span class="featured-text editable">best</span> </h3>
@@ -111,5 +124,8 @@
 </footer>
 <!------- THIS is our JQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!------- our  custum JQuery -->
+<script src="/scripts.js" ></script>
 </body>
 </html>
