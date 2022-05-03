@@ -1,21 +1,12 @@
 ---
 layout: default
-featured:
- - icon: fab fa-pagelines
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
- - icon: fas fa-apple-alt
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
- - icon: fas fa-carrot
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
- - icon: fas fa-pizza-slice
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 ---
 
     <!----------- Header ---------->
     <header class="grid text-center tall-100 md-tall-80">
          <div class="header-nav grid col-12-top">
 
-            {%include header-nav.html%}
+            {% include header-nav.html %}
 
             <div class="col-12-middle">
                 <h3><span class="featured-text editable">sleep</span> like a baby</h3>
@@ -45,14 +36,14 @@ featured:
     <div class="padded-sm col-12 text-center">
         <h2><span class="featured-text">features </span>you will love</h2>
     </div>
-
-    {% for item in page.featured %}
+  
     <div class="padded-sm col-3_sm-6_xs-12">
-        <i class="{{item.icon}}"></i>
-        <p>{{item.description}}</p>
+        <i class=""></i>
+        <p></p>
     </div>
-    {% endfor %}
+
 </section>
+
 
 <!-------------Banner --------->
 <section class="padded text-center bg-pillow tall-70 grid bg-image">
