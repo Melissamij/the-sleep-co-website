@@ -6,4 +6,6 @@ $(document).ready(function() {
 });
 
 // animate on scroll activate 
-AOS.init();
+AOS.init({
+    duration: 500
+});
