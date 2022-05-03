@@ -4,3 +4,6 @@ $(document).ready(function() {
         $(".mobile-menu").fadeToggle()
     });
 });
+
+// animate on scroll activate 
+AOS.init();
