@@ -1,5 +1,14 @@
 ---
 layout: default
+featured:
+ - icon: fab fa-pagelines
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+ - icon: fas fa-apple-alt
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+ - icon: fas fa-carrot
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+ - icon: fas fa-pizza-slice
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 ---
 
     <!----------- Header ---------->
@@ -36,12 +45,12 @@ layout: default
     <div class="padded-sm col-12 text-center">
         <h2><span class="featured-text">features </span>you will love</h2>
     </div>
-  
+    {% for item in page.featured %}
     <div class="padded-sm col-3_sm-6_xs-12">
-        <i class=""></i>
-        <p></p>
+        <i class="{{item.icon}}"></i>
+        <p>{{item.description}}</p>
     </div>
-
+    {% endfor %}
 </section>
 
 
