@@ -7,11 +7,38 @@
 /* -------------- Style Image*/
 .bg-image{
     background-image: url("/image/sleep-co4.jpg");
-    background-size: cover;
+    background-color: rgb(240,240,240);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
-.landscape{ padding-bottom: 65%;}
-.portrait {padding-bottom: 125%;}
-.square {padding-bottom: 100%;}
+
+/* Aspect Ratio  */
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 66%; }
+.landscape-wide { padding-bottom: 56%; }
+
+
+/*---------Background Images*/
+.bg-bed {background-image: url('/image/img-bed.jpg');}
+.bg-dog{background-image:url('/image/img-dog.jpg') ;
+background-position: 50% 35%;}
+.bg-pillow{background-image: url('/image/img-pillow.jpg');
+background-position: 50% 57%;}
+
+.gallery [class*="col-"] {
+  padding: 0.5%;
+}
+
+/* Background Position */
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
+
+
 
 /* ---- Universal style &utility classes  */
 body{ 
@@ -138,12 +165,7 @@ footer a{
   display: none;
 }
 
-/*---------Background Images*/
-.bg-bed {background-image: url('/image/img-bed.jpg');}
-.bg-dog{background-image:url('/image/img-dog.jpg') ;
-background-position: 50% 35%;}
-.bg-pillow{background-image: url('/image/img-pillow.jpg');
-background-position: 50% 57%;}
+
 
 /*--------- Icon Grid---------*/
 .fas,
