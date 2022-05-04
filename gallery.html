@@ -3,18 +3,18 @@ layout: default
 gallery:
  - colum-size: col-6 
    aspect-ratio: square 
-   background-image: /images/the-sleep-co-original1.jpg
+   background-image: /image/img-dog.jpg
+ - colum-size: col-6 
+   aspect-ratio: square 
+   background-image: /image/img-pillow.jpg
  - colum-size: col-6 
    aspect-ratio: square 
    background-image: /images/the-sleep-co-original1.jpg
  - colum-size: col-6 
    aspect-ratio: square 
    background-image: /images/the-sleep-co-original1.jpg
- - colum-size: col-6 
-   aspect-ratio: square 
-   background-image: /images/the-sleep-co-original1.jpg
- - colum-size: col-6 
-   aspect-ratio: square 
+ - colum-size: col-12 
+   aspect-ratio: landscape
    background-image: /images/the-sleep-co-original1.jpg
 ---
  <!----------- Header ---------->
@@ -35,12 +35,14 @@ gallery:
 <section class="padded">
     <div class="gallery grid">
         {% for item in page.gallery %} 
-        <div class="{{item.column-size}}">
-          <div class="bg-image {{tiem.aspect-ratio}}" style="background-image: url('{{item.background_image}}"></div>
+        <div class="{{item.colum-size}}">
+          <div class="bg-image {{item.aspect-ratio}}" style="{background-image: url('/image/img-pillow.jpg')"></div>
         </div>
         {% endfor %}
     </div> 
 </section>
+
+
 <!-- Before Jekyll
 <section class="padded">
     <div class="gallery grid">
