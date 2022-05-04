@@ -31,6 +31,16 @@ background-position: 50% 57%;}
 .gallery [class*="col-"] {
   padding: 0.5%;
 }
+.gallery a{
+  border-bottom: none;
+}
+/*background galery when active
+.lg-backdrop{
+background-color:  change color of background
+}
+.lg-backdrop.in{ opacity: 0.9;}
+*/
+
 
 /* Background Position */
 .bg-pos-t { background-position: top; }

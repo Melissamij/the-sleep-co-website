@@ -9,3 +9,10 @@ $(document).ready(function() {
 AOS.init({
     duration: 500
 });
+
+// pop up gallery 
+lightGallery(document.getElementById('lightgallery'), {
+    speed: 500,
+    download: false
+    
+});
