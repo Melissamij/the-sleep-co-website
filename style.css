@@ -173,6 +173,7 @@ footer a{
 /* General CSS Responsive Styles */
 .mobile-menu {
   display: none;
+  z-index: 1;
 }
 
 
